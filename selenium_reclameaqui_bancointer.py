@@ -15,7 +15,7 @@ DATABASE, HOST, USER, PASSWORD = credentials.setDatabaseLogin()
 DELAY = 1
 WAIT = 30
 outdir = '/home/ubuntu/scripts/load-dados-reclame-aqui/csv/'
-file2 = 'comentarios_bancointer.csv'
+file2 = 'comentarios_sulamerica.csv'
 display = Display(visible=0, size=(800,600))
 display.start()
 driver = webdriver.Chrome(executable_path='/home/ubuntu/scripts/load-dados-reclame-aqui/chromedriver')
@@ -24,7 +24,7 @@ driver = webdriver.Chrome(executable_path='/home/ubuntu/scripts/load-dados-recla
 db_conn = psycopg2.connect("dbname='{}' user='{}' host='{}' password='{}'".format(DATABASE, USER, HOST, PASSWORD))
 cursor = db_conn.cursor()
 print('Connected to the database')
-query = "SELECT empresa_id FROM reclame_aqui_dw.empresa WHERE empresa in ('GENIAL','BTG PACTUAL','RICO','XP INVESTIMENTOS','ORAMA','EASYNVEST','CLEAR','PI INVESTIMENTOS') ORDER BY 1"
+query = "SELECT empresa_id FROM reclame_aqui_dw.empresa WHERE empresa in ('SULAMÉRICA') ORDER BY 1"
 cursor.execute(query)
 empresas = [item[0] for item in cursor.fetchall()]
 cursor.close()
@@ -33,7 +33,7 @@ db_conn.close()
 for empresa in empresas:
 
     urls = []
-    for i in range(1,100): ### Pega endereços de todas as reclamações das 3 primeiras paginas e armaza em um vetor
+    for i in range(1,300): ### Pega endereços de todas as reclamações das 3 primeiras paginas e armaza em um vetor
         try:
             driver.get("https://www.reclameaqui.com.br/empresa/"+empresa+"/lista-reclamacoes/?pagina="+str(i)+"&status=EVALUATED")
             element_present = EC.presence_of_element_located((By.ID, 'complains-anchor-top'))

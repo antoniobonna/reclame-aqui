@@ -31,7 +31,7 @@ outdir = '/home/ubuntu/scripts/load-dados-reclame-aqui/csv/'
 file = 'trigram.csv'
 query_app = "SELECT empresa_id FROM reclame_aqui_dw.empresa WHERE empresa != 'BTG PACTUAL'"
 query_company = "SELECT empresa FROM reclame_aqui_dw.empresa"
-query_data = "SELECT DISTINCT ano,mes FROM reclame_aqui_dw.vw_reclamacoes_avaliadas WHERE empresa_id = '{}' AND mes != date_part('month',current_date) AND ano != date_part('year',current_date) ORDER BY 1,2"
+query_data = "SELECT DISTINCT ano,mes FROM reclame_aqui_dw.vw_reclamacoes_avaliadas WHERE empresa_id = '{}' AND (mes,ano) = (date_part('month',current_date-30), date_part('year',current_date-30)) ORDER BY 1,2"
 query_comentario = "SELECT reclamacao FROM reclame_aqui_dw.vw_reclamacoes_avaliadas WHERE empresa_id = '{}' AND ano = {} AND mes = {}"
 tablename = 'reclame_aqui_dw.trigrams_reclamacoes_avaliadas'
 
@@ -50,11 +50,11 @@ with open(outdir+file,'w', newline="\n", encoding="utf-8") as ofile:
     cursor.execute(query_app)
     apps = [item[0] for item in cursor.fetchall()]
     for app in apps:
-        print('Parsing '+app+'...')
-        cursor.execute(query_data.format(app))
-        datas = [item for item in cursor.fetchall()]
-        for ano,mes in [datas[-1]]:
-            try:
+        try:
+            print('Parsing '+app+'...')
+            cursor.execute(query_data.format(app))
+            datas = [item for item in cursor.fetchall()]
+            for ano,mes in [datas[-1]]:
                 print('Ano: {} - Mês: {}'.format(ano,mes))
                 cursor.execute(query_comentario.format(app,ano,mes))
                 comments = [str(item[0]) for item in cursor.fetchall()]
@@ -71,8 +71,8 @@ with open(outdir+file,'w', newline="\n", encoding="utf-8") as ofile:
                     if trigram and count > 1:
                         trigram = '_'.join(trigram)
                         writer.writerow([app,ano,mes,trigram.rstrip('_'),count])
-            except:
-                pass
+        except:
+            pass
 
 ## copy
 with open(outdir+file, 'r') as ifile:

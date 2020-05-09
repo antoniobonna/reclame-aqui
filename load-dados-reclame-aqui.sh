@@ -47,7 +47,7 @@ python ${DIR}/${BOT} START DAILY
 
 echo -e "$(horario): Inicio do staging.\n-\n"
 
-ListaArquivos="selenium_reclameaqui.py"
+ListaArquivos="crawler_reclamacoes_avaliadas.py crawler_reclamacoes.py"
 for FILE in $ListaArquivos; do
 	stagingDados $FILE
 done
