@@ -8,7 +8,9 @@ DUMP="/home/ubuntu/dump"
 STARTDATE=$(date +'%F %T')
 SCRIPTNAME="load-dados-reclame-aqui.sh"
 BOT="bot_message.py"
-source "/home/ubuntu/scripts/load-dados-covid-19/credentials.sh"
+source "/home/ubuntu/scripts/load-dados-reclame-aqui/credentials.sh"
+
+export PGPASSWORD
 
 horario()
 {

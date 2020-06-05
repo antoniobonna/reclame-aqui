@@ -31,3 +31,581 @@ Traceback (most recent call last):
   File "/home/ubuntu/scripts/load-dados-reclame-aqui/reclame_aqui/reclame_aqui/spiders/reclamacoes.py", line 77, in parseComplain
     title = d['title']
 KeyError: 'title'
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET http://127.0.0.1:8050/robots.txt> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET http://127.0.0.1:8050/robots.txt>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/buscape/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/bradesco/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/beta-pi/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-original/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-neon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-intermedium/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-do-brasil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-bs2/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-agiplan/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/amil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/americanas-com-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/ame-digital/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/amazon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/aliexpress/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/99taxis/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/buscape/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/bradesco/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/beta-pi/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-original/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-neon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-intermedium/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-do-brasil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-bs2/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-agiplan/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/amil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/americanas-com-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/ame-digital/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/amazon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/aliexpress/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/99taxis/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 10:30:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-04 11:05:46 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/casas-bahia-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): 504 Gateway Time-out
+2020-06-04 11:14:26 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/ponto-frio-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): 504 Gateway Time-out
+2020-06-04 11:28:52 : ERROR : Spider error processing <GET https://iosite.reclameaqui.com.br/raichu-io-site-v1/complain/public/2byJ6q3coRBlPJ34> (referer: https://www.reclameaqui.com.br/empresa/amazon/lista-reclamacoes/?pagina=1&status=EVALUATED)
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 117, in iter_errback
+    yield next(it)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/utils/python.py", line 345, in __next__
+    return next(self.data)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/utils/python.py", line 345, in __next__
+    return next(self.data)
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy_splash/middleware.py", line 156, in process_spider_output
+    for el in result:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/home/ubuntu/scripts/load-dados-reclame-aqui/reclame_aqui/reclame_aqui/spiders/reclamacoes.py", line 77, in parseComplain
+    title = d['title']
+KeyError: 'title'
+2020-06-04 11:33:52 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/cielo/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): 504 Gateway Time-out
+2020-06-04 11:43:00 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/ponto-frio-loja-online/lista-reclamacoes/?pagina=3&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): 504 Gateway Time-out
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET http://127.0.0.1:8050/robots.txt> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET http://127.0.0.1:8050/robots.txt>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/bradesco/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/beta-pi/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-original/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-neon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-intermedium/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-do-brasil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-bs2/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/buscape/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/banco-agiplan/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/amil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/americanas-com-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/ame-digital/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/amazon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/aliexpress/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/99taxis/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/cabify/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/caixa-economica-federal/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/carrefour-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/casas-bahia-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/central-nacional-unimed/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/cielo/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/clear-corretora-de-valores/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/digio/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/easynvest/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/elo7/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/estacio/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/bradesco/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/extra-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/beta-pi/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-original/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/fast-shop/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-neon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-intermedium/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-do-brasil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-bs2/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/buscape/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/fleury-medicina-e-saude/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/banco-agiplan/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/amil/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/americanas-com-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/ame-digital/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/amazon/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/aliexpress/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/c6-bank/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/99taxis/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/genial-investimentos/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/hapvida-saude/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/hermes-pardini/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/itau/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/itaucard/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/cabify/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/iti/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/caixa-economica-federal/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/localiza-aluguel-de-carros/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/carrefour-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/localiza-driver/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/casas-bahia-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/central-nacional-unimed/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/magazine-luiza-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/cielo/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/clear-corretora-de-valores/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/mercado-livre/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/digio/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/mercado-pago/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/easynvest/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/elo7/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/moobie/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/estacio/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/extra-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/movida-rent-a-car/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/fast-shop/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/next-me_187626/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/fleury-medicina-e-saude/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/notredame-intermedica/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/genial-investimentos/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/hapvida-saude/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/nubank/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/hermes-pardini/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/olx/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/itau/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/orama/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/itaucard/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/iti/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/pag/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/localiza-aluguel-de-carros/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/pagseguro/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/localiza-driver/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/picpay/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/magazine-luiza-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/ponto-frio-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/recargapay/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/mercado-livre/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/rentcars-com/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/rico-corretora-de-investimentos/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/mercado-pago/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/santander/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/moobie/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/shoptime/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/movida-rent-a-car/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/stone/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/submarino/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/next-me_187626/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/sulamerica-saude/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/notredame-intermedica/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/trigg/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/uber/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/nubank/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/unidas-aluguel-de-carros/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/olx/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/unimed-bh/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/unimed-rio-rj/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/orama/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/uninove-universidade-nove-de-julho/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/unip-aqui-voce-pode/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/walmart-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/pag/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/wish/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/xp-investimentos/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/zazcar/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/zoom-com-br/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/pagseguro/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/picpay/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/ponto-frio-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/recargapay/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/rentcars-com/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/rico-corretora-de-investimentos/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/santander/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/shoptime/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/stone/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/submarino/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/sulamerica-saude/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/trigg/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/uber/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/unidas-aluguel-de-carros/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/unimed-bh/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/unimed-rio-rj/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/uninove-universidade-nove-de-julho/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/unip-aqui-voce-pode/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/walmart-loja-online/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/wish/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/xp-investimentos/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/zazcar/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 08:05:04 : ERROR : Error downloading <GET https://www.reclameaqui.com.br/empresa/zoom-com-br/lista-reclamacoes/?pagina=1&status=EVALUATED via http://127.0.0.1:8050/execute>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2020-06-05 12:12:07 : ERROR : Gave up retrying <GET https://www.reclameaqui.com.br/empresa/carrefour-loja-online/lista-reclamacoes/?pagina=2&status=EVALUATED via http://127.0.0.1:8050/execute> (failed 3 times): 504 Gateway Time-out

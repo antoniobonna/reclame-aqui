@@ -62,7 +62,7 @@ class ReclamacoesNaoAvaliadasSpider(scrapy.Spider):
                 meta = {'empresa' : empresa, 'complain_url' : response.urljoin(link.xpath(".//@href").get())}
                 )
             next_page = response.xpath('//li[@class="pagination-next ng-scope"]').get()
-            if next_page and page <= 5:
+            if next_page and page <= 4:
                 yield SplashRequest(
                     url=f"https://www.reclameaqui.com.br/empresa/{empresa}/lista-reclamacoes/?pagina={str(page+1)}",
                     callback=self.parse, 
