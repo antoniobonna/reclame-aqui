@@ -10,7 +10,7 @@ SCRIPTNAME="load-dados-reclame-aqui.sh"
 BOT="bot_message.py"
 source "/home/ubuntu/scripts/load-dados-reclame-aqui/credentials.sh"
 
-export PGPASSWORD
+export PGPASSWORD BULKLOAD_CONTROL
 
 horario()
 {
@@ -26,7 +26,6 @@ stagingDados()
 	time (scrapy crawl $FILE -o ${FILE}.csv
 	[ -r ${FILE}.csv ] && pg_bulkload -h $HOST -U $USER -d $DATABASE -i ${FILE}.csv -P $PARSE_BADFILE -o "SKIP=1" -O reclame_aqui.${FILE}_stg $BULKLOAD_CONTROL
 	psql -d $DATABASE -c "VACUUM ANALYZE reclame_aqui.${FILE}_stg;"
-
 	rm -f ${FILE}.csv)
 	echo -e "$(horario): Script $FILE executado.\n-\n"
 }
@@ -57,11 +56,13 @@ python ${DIR}/${BOT} START DAILY
 
 echo -e "$(horario): Inicio do staging.\n-\n"
 
-ID=$(sudo docker run -it -p 8050:8050 -d scrapinghub/splash)
+# ID=$(sudo docker run -it -p 8050:8050 -d scrapinghub/splash)
+
+sleep 2
 
 ListaArquivos="reclamacoes reclamacoes_nao_avaliadas"
 for FILE in $ListaArquivos; do
-	stagingDados $FILE
+	stagingDados "$FILE"
 done
 
 ### Carrega dados no DW
@@ -91,7 +92,7 @@ echo "$SCRIPTNAME;$STARTDATE;$ENDDATE" >> $LOG
 
 echo -e "$(horario):Fim da execucao.\n"
 
-sudo docker stop $ID
+# sudo docker stop $ID
 
 python ${DIR}/${BOT} "END"
 

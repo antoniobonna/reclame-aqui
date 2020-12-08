@@ -1,0 +1,8 @@
+LANG=C.UTF-8
+PWD=/home/ubuntu
+HOME=/home/ubuntu
+SHELL=/bin/bash
+SHLVL=1
+LOGNAME=ubuntu
+PATH=/home/ubuntu/.local/bin:/usr/lib/postgresql/12/bin:/home/ubuntu/.nvm/versions/node/v12.11.1/bin:/home/ubuntu/anaconda3/bin:/home/ubuntu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+_=/usr/bin/env

@@ -29,7 +29,7 @@ def words(text):
 ### variaveis
 outdir = '/home/ubuntu/scripts/load-dados-reclame-aqui/csv/'
 file = 'trigram_nao_avaliadas.csv'
-query_app = "SELECT empresa_id FROM reclame_aqui_dw.empresa WHERE reclamacoes_nao_avaliadas = True AND empresa_id in ('lopes-imoveis','quinto-andar','zap-imoveis')"
+query_app = "SELECT empresa_id FROM reclame_aqui_dw.empresa WHERE reclamacoes_nao_avaliadas = True AND empresa_id in ('lopes-imoveis','quinto-andar','zap-imoveis', 'enjoei')"
 query_classificacao = "SELECT DISTINCT classificacao FROM reclame_aqui_dw.vw_reclamacoes_nao_avaliadas WHERE empresa_id = '{}'"
 query_comentario = "SELECT unaccent(reclamacao) reclamacao FROM reclame_aqui_dw.vw_reclamacoes_nao_avaliadas WHERE empresa_id = '{}' AND classificacao = '{}'"
 tablename = 'reclame_aqui_dw.trigrams_reclamacoes_real_state'

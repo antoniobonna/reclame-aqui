@@ -76,12 +76,14 @@ class ReclamacoesNaoAvaliadasSpider(scrapy.Spider):
         empresa = response.request.meta['empresa']
         complain_url = response.request.meta['complain_url']
         title = d['title']
-        city = d['userCity']
+        if 'userCity' in d:
+            city = d['userCity']
+        else:
+            city = ''
         state = d['userState']
         if len(state) > 2:
             state = None
         id = d['legacyId']
-        current_datetime = d['created']
         current_datetime = str(datetime.strptime(d['created'],'%Y-%m-%dT%H:%M:%S'))
         complain = d['description'].replace('<br />','\n').replace('&quot;','\"')
         yield {
